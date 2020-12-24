@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    max-width: 1000px;
+    padding: 100px 50px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.timer {
+    display: inline-block;
+    width: 100%;
+    max-width: 700px;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    & :not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.field {
+    display: inline-block;
+    width: 100%;
+    max-width: 105px;
+    & :not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.value {
+    width: 100%;
+    min-width: 20px;
+}
+
+.label {
+    width: 100%;
+    min-width: 70px;
+}
