@@ -1,9 +1,12 @@
-// Это вызов класса
+import CountdownTimer from './timerClass'
 
-//  const CountdownTimer = new CountdownTimer({
-//     selector: '#timer-1',
-//     targetDate: new Date('Jul 17, 2021'),
-// }), {};
+// Передача классу параметров таймера
+
+ const timer = new CountdownTimer({
+    selector: '#timer-1',
+    targetDate: new Date('Jul 17, 2021'),
+});
+
 const timerRef = document.querySelector('#timer-1');
 console.dir(timerRef);
 
